@@ -1,0 +1,45 @@
+.container{
+    background-color: #e9ecef;
+    width:1000px;
+    height: 1100;
+    margin:20px;
+}
+.container>h1{
+    color: #3e5c76;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
+.block1{
+    background-color:#f94144;
+    width: 930px;
+    height: 310px;
+    display: flex;
+    margin:20px;
+}
+.block2{
+    background-color:#277da1;
+    width:930px;
+    height:310px;
+    display: flex;
+    margin:20px;
+    justify-content: space-around;
+
+}
+.block3{
+    background-color:#f2e9e4;
+    width: 930px;
+    height: 310px;
+    display: flex;
+    margin:20px;
+} 
+.block1> img , .block3>img{
+    width:250px;
+    height:250px;
+    margin:20px;
+}
+.block2> img{
+    width:250px;
+    height:250px;
+    margin:20px;
+}
